@@ -21,7 +21,6 @@ public class Login extends HttpServlet {
 
         PrintWriter out = response.getWriter();
         out.println("<h1>Login</h1>");
-        out.println("<h1>José Beija Rapazes</h1>")
         out.println("<form method='post' action='Login'>");
         out.println("<label>Nome:</label>");
         out.println("<input type='text' value='' name='usuario'>");
